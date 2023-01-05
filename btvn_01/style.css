@@ -6,6 +6,7 @@
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 body {
@@ -46,12 +47,6 @@ body {
     margin-left: 50px;
 }
 
-
-/* #main {
-    transition: margin-left 0.5s;
-    padding: 16px;
-} */
-
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
@@ -80,6 +75,10 @@ body {
 .header li {
     list-style: none;
     padding: 0 20px;
+}
+
+.header li a {
+    color: #000;
 }
 
 .header .find {
@@ -123,19 +122,23 @@ body {
 }
 
 .info-01 .arrow {
+    display: block;
     background-color: blue;
 }
 
 .info-02 .arrow {
     background-color: green;
+    display: block;
 }
 
 .info-03 .arrow {
     background-color: yellow;
+    display: block;
 }
 
 .info-04 .arrow {
     background-color: red;
+    display: block;
 }
 
 .arrow {
